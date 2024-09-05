@@ -1,0 +1,87 @@
+/* Resetando algumas propriedades padrão dos navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cor de fundo e fonte para todo o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333; /* Cor do texto padrão */
+    background-color: #f4f4f4; /* Cor de fundo leve */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #00796B; /* Cor de fundo verde escuro */
+    color: #fff; /* Cor do texto branca */
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+nav ul li a {
+    color: #fff; /* Cor dos links no cabeçalho */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Estilo das seções */
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    background-color: #00796B; /* Cor de fundo das seções */
+    color: #fff; /* Cor do texto das seções */
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Estilo dos artigos */
+article {
+    margin-bottom: 1.5rem;
+}
+
+article h3 {
+    color: #004D40; /* Cor dos subtítulos dos artigos */
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto branca */
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+Explicação
+
